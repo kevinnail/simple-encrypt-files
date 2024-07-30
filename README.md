@@ -1,5 +1,7 @@
 # Encrypt and Decrypt Files
 
+NOTE: **_openSSL must be installed on your system for this script to work_**
+
 ## Commands for Script
 
 1. Open your terminal and navigate to the directory containing `encrypt_files.js`.
@@ -8,6 +10,6 @@
 
 ### Examples
 
-Encrypt: `node C:\Projects\encrypt_files.js "C:\Projects\MyJournalEntries" my-secret-password`
+Encrypt: ``` node C:\Projects\encrypt_files.js "C:\Projects\MyJournalEntries" my-secret-password ```
 
 Decrypt: `node C:\Projects\decrypt_files.js "C:\Projects\MyJournalEntries" my-secret-password`
